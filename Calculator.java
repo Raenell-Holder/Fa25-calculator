@@ -22,7 +22,7 @@ public class Calculator
     } 
    public int multiplication(int x, int y) 
     {     
-       //return x * y; 
+       return x * y; 
     } 
     public int subtraction(int x, int y) 
     { 
@@ -57,7 +57,7 @@ public class Calculator
                break; 
              case(3): 
                  System.out.println(multiplication(x, y)); 
-             //  operands.next(); 
+               //operands.next(); 
                break; 
              case(4): 
                  System.out.println(division(x, y));
